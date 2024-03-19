@@ -5,27 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pomodoro Timer!</title>
     <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
 </head>
 <body>
-    <div>
-        <div class="theme">
-            <button >theme</button>
-        </div>
-        <div class="title">
-            <h1>Pomodoro Timer!</h1>
-            <img src="img/tomato.jpg" alt="A drawing of a cute tomato!" width="120px">
-        </div>
-        <div class="content">
-            <div>
-                <button class="btn">Start Timer</button>
-                <button class="btn">Restart</button>
-            </div>
-            <p class="timer">25:00</p>
-            <button class="btn">Pause</button>
-        </div>
+    <div id="body2" class="theme">
+        <button id="themeBtn" class="themeBtn">theme</button>
     </div>
-    <div class="aboutMe">
-        <p>Made by Alonso Alarcon</p>
+    <div id="body" class="body">
+        <div>
+            <div class="title">
+                <h1>Pomodoro Timer!</h1>
+                <img src="img/tomatoNoBg.png" alt="A drawing of a cute tomato!" width="120px">
+            </div>
+            <div class="content">
+                <div>
+                    <button class="btn">Start Timer</button>
+                    <button class="btn">Restart</button>
+                </div>
+                <p class="timer">25:00</p>
+                <button class="btn">Pause</button>
+            </div>
+        </div>
+        <div class="aboutMe">
+            <p>Made by Alonso Alarcon</p>
+        </div>
     </div>
 </body>
 </html>
